@@ -1,0 +1,134 @@
+.skillsBox {
+  & > div {
+    box-shadow: 0px 7px 8px -8px var(--color-secondary);
+    max-width: 767px;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .infoTech {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .infoName {
+        // max-width: 7rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+    }
+
+    .imgTech {
+      color: var(--white);
+      padding: 1rem 0;
+      max-width: 550px;
+
+      display: flex;
+      text-align: initial;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+
+      & > div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        & > h2 {
+          color: var(--color-gray);
+          padding: 20px;
+        }
+
+        & > div {
+          & > ul {
+            display: grid;
+            grid-template-columns: 4fr 4fr 3fr;
+            justify-items: center;
+
+            & > li {
+              margin: 1rem;
+
+              & > p {
+                display: flex;
+                align-items: center;
+                margin-top: 4px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 513px) {
+  .skillsBox {
+    & > div {
+      margin-top: -22px;
+      margin-left: 10px;
+    }
+  }
+}
+
+@media (min-width: 755px) {
+  .skillsBox {
+    & > div {
+      width: 600px;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .skillsBox {
+    & > div {
+      width: 830px;
+      max-width: 1440px;
+      align-items: flex-start;
+      margin-left: 0px;
+
+
+      .imgTech {
+        color: var(--white);
+        padding: 1rem 0;
+        max-width: 1440px;
+  
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        gap: 234px;
+  
+        & > div {
+          align-items: flex-start;
+  
+          & > h2 {
+            padding: 20px 0;
+          }
+  
+          & > div {
+            & > ul {
+              justify-items: start;
+  
+              & > li {
+                margin: 1rem 1rem 1rem 0;
+  
+                & > p {
+                  display: flex;
+                  align-items: center;
+                  margin-top: 4px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

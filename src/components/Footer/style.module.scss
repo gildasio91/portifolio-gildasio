@@ -1,0 +1,44 @@
+.footerBox {
+  & > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    height: 30px;
+
+    & > h2 {
+      background: var(--color-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: var(--font-size-3);
+    }
+
+    & > ul {
+      display: flex;
+      width: 131px;
+      height: 25px;
+      gap: 28px;
+
+      &>:hover{
+        transform: scale(1.1);
+      }
+    }
+
+    & > p {
+      font-size: var(--font-size-4);
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .footerBox {
+    & > div {
+      width: 830px;
+      max-width: 1440px;
+
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-evenly;
+    }
+  }
+}
