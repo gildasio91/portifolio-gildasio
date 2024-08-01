@@ -6,7 +6,7 @@ export const Footer = () => {
     return (
         <footer className={`container ${Styles.footerBox}`}>
             <div>
-                <h2>Feel free to contact me</h2>
+                <h2>Sinta-se à vontade para me contatar</h2>
                 
                 <ul>
                         <li>

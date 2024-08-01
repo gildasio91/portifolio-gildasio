@@ -8,6 +8,7 @@ import {
 } from "react-icons/fa";
 
 export const Header = () => {
+
   const [isLightMode, setIsLightMode] = useState(false);
 
   useEffect(() => {
@@ -31,6 +32,8 @@ export const Header = () => {
     );
   };
 
+
+  
   return (
     <header className={`container ${Styles.headerBox}`}>
       <div>
@@ -72,12 +75,12 @@ export const Header = () => {
             <ul>
               <li>
                 <a className="paragraph" href="#projects">
-                  Projets
+                  Projetos
                 </a>
               </li>
               <li>
                 <a className="paragraph" href="#skills">
-                  Skills
+                  Habilidades
                 </a>
               </li>
             </ul>

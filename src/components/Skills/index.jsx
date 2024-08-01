@@ -75,14 +75,6 @@ export const Skills = () => {
                                     <SiPrisma  size={40}/>
                                     <p className="paragraph">Prisma</p>
                                 </li>
-                                {/* <li>
-                                    <FaJava   size={40} color="rgb(222 10 23)" />
-                                    <p className="paragraph">Java</p>
-                                </li> */}
-                                {/* <li>
-                                    <BiLogoSpringBoot  size={40} color="rgb(109 179 63)" />
-                                    <p className="paragraph">Spring Boot</p>
-                                </li> */}
                                 <li>
                                     <SiJest size={40} color="rgb(154 67 80)" />
                                     <p className="paragraph">Jest</p>
@@ -96,23 +88,23 @@ export const Skills = () => {
                             <ul>
                                 <li>
                                     <AiFillFile size={40} color="#EC6231" />
-                                    <p className="paragraph">Responsibility</p>
+                                    <p className="paragraph">Responsabilidade</p>
                                 </li>
                                 <li>
                                     <FaBook size={40} color="rgb(41 169 223)" />
-                                    <p className="paragraph">Self-learning</p>
+                                    <p className="paragraph">Autoaprendizagem</p>
                                 </li>
                                 <li>
                                     <MdGroups2 size={40} color="rgb(249 224 62)" />
-                                    <p className="paragraph">Team Work</p>
+                                    <p className="paragraph">Trabalho em equipe</p>
                                 </li>
                                 <li>
                                     <FaClipboardList size={40} color="rgb(97 219 251)" />
-                                    <p className="paragraph">Organization</p>
+                                    <p className="paragraph">Organização</p>
                                 </li>
                                 <li>
                                     <RiSpeakLine size={40} color="rgb(204 102 153)" />
-                                    <p className="paragraph">Communication</p>
+                                    <p className="paragraph">Comunicação</p>
                                 </li>
                             </ul>
                         </div>
