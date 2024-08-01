@@ -1,6 +1,6 @@
 import Styles from "./style.module.scss";
 import photo from "../../assets/gildasioPerfil.jpeg";
-// import curriculum from "../../assets/";
+import curriculum from "../../assets/CV - Gildasio Almeida.pdf";
 
 export const Apresentation = () => {
   return (
@@ -28,7 +28,7 @@ export const Apresentation = () => {
           </div>
         </div>
         <div className={Styles.boxButton}>
-          <a download="">Download CV</a>
+          <a href={curriculum} download="Currículo Gildasio Almeida.pdf">Download CV</a>
         </div>
       </div>
     </section>
