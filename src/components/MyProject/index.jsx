@@ -28,7 +28,7 @@ export const MyProject = () => {
                           href="https://react-entrega-kenzie-hub-gildasio91.vercel.app/"
                           target="_blank"
                         >
-                          <p>Live preview</p>
+                          <p>Visualizar</p>
                         </a>
                       </div>
                       <div>
