@@ -1,6 +1,6 @@
 import Styles from "./style.module.scss";
 import photo from "../../assets/gildasioPerfil.jpeg";
-import curriculum from "../../assets/CV - Gildasio Almeida.pdf";
+import curriculum from "../../assets/cv_Gildasio Almeida da Silva.pdf";
 
 export const Apresentation = () => {
   return (
@@ -13,7 +13,7 @@ export const Apresentation = () => {
             </h1>
             <p className="paragraph">
               Sou um Desenvolvedor Full Stack atualmente cursando o Bacharelado
-              em Análise e Desenvolvimento de Sistemas na PUCRS. Concluí um
+              em Análise e Desenvolvimento de Sistemas na PUC. Concluí um
               curso intensivo de Desenvolvimento Web Full Stack na Kenzie
               Academy Brasil, com mais de 2.000 horas de aulas. Tenho uma sólida
               base em tecnologias Front End e Back End, com habilidades em HTML,

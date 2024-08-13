@@ -25,7 +25,7 @@ export const Footer = () => {
                             </a>
                         </li>
                     </ul>
-                <p>gildasioalmeidasilvarj@gmail.com</p>    
+                <p>gildasio.almeida.sp@gmail.com</p>    
             </div>
         </footer>
     )
